@@ -74,7 +74,21 @@
     - gridIdentifier.py
         - contains functions to convert the image pixels i,j to x,y and r,c and other functions.   
 
-### Brief on communication architecture.
+# Output Images
+
+- Image processing 
+    - [video](https://www.youtube.com/watch?v=WYtzD95BN-g)
+    - <img src="./images/image_processing.png" width=500/>
+- Stage Detection 
+    - [video](https://www.youtube.com/watch?v=5Ej_vqSPSwY)
+    - <img src="./images/stage_detection.png" width=500/>
+- Robots in virtual environment (Gazebo)
+    - <img src="./images/ros_gazebo_rviz.png" width=500/>
+- Robots in real enviroment
+    - [video](https://www.youtube.com/watch?v=p6G3ub3R7Qo)
+    - <img src="./images/real.png" width=500/>
+
+# Brief on communication architecture.
 
 - **Transmission.**
     - arduino nano connected to pc using USB cable.
@@ -113,7 +127,7 @@
     - the transmitter arduino sends it the robots.
 
 
-### DifferentialDriveRobot
+## DifferentialDriveRobot
 
 - This is the workspace use to launch the gazebo environment for the robots.
 - The myrobot_description contains the xacro files of the robot.
