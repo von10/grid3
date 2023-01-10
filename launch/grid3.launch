@@ -39,4 +39,9 @@
    args="-urdf -param /robot3/robot_description -model myrobot3 -y 1.764180 -x 2.333766 -z 0.05 -Y 3.14" />
      <node name="myrobot_spawn4" pkg="gazebo_ros" type="spawn_model" output="screen"
    args="-urdf -param /robot4/robot_description -model myrobot4 -y 0.693792  -x 2.333766  -z 0.05 -Y 3.14" />
+  
+  
+    <include file="$(find grid3)/launch/simulation.launch"/> 
+    <include file="$(find grid3)/launch/visualize.launch"/> 
+
 </launch>
