@@ -17,8 +17,10 @@ find_package(
   moveit_ros_planning_interface
   rviz_visual_tools
   moveit_visual_tools
-  Eigen3 REQUIRED
+  # Eigen3 
+  REQUIRED
 )
+# add Eigen3 if using rpy
 
 #find_package(Eigen3 REQUIRED)
 
